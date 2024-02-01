@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+}
+
+.container {
+    border: 2px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 140vh;
+    margin: auto;
+    width: 800px;
+    padding: 15px;
+    
+}
+
+.left {
+    margin: 2px;
+}
+
+
+
+.bottom {
+    height: 72%;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.photo {
+    height: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #333;
+
+    background-color: #f9e4b7;
+}
+
+.photo h1 {
+    margin-bottom: -17px;
+}
+
+.photo h2 {
+    margin-bottom: 7px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 63%;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.git::before {
+    content: "";
+    background: url('https://pngimg.com/uploads/github/github_PNG83.png') no-repeat center center;
+    background-size: cover;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    filter: invert(18%);
+
+}
+
+.linkedin::before {
+    content: "";
+    background: url("https://w7.pngwing.com/pngs/902/874/png-transparent-computer-icons-linkedin-black-icon-miscellaneous-angle-text.png") no-repeat center center;
+    background-size: cover;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    filter: invert(92%);
+    border-radius: 3px;
+    color: #333;
+}
+
+.contact {
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.contact h1 {
+    position: relative;
+    top: 21px;
+    left: 42px;
+}
+
+.contact h3 {
+    position: relative;
+    top: 34px;
+    left: 63px;
+    color: #333;
+}
+
+.contact p {
+    position: relative;
+    top: 34px;
+    left: 63px;
+    color: #6b6a6a;
+}
+
+.contact h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+
+    height: 2px;
+    width: 178%;
+    background-color: #333;
+
+}
+
+.skills {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skills h1 {
+    position: relative;
+    top: 21px;
+    left: 42px;
+
+}
+
+.skills h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2.7px;
+    width: 271%;
+    border-radius: 2px;
+    background-color: #333;
+
+}
+
+.skills h3 {
+    position: relative;
+    line-height: 59px;
+
+}
+
+.skills .js {
+    top: 48px;
+    left: 54px;
+    line-height: 55px;
+}
+
+.js .out {
+    width: 168px;
+    position: absolute;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.js .in {
+    background-color: #fbdea1;
+    width: 90%;
+    height: 5px;
+}
+
+.skills .css {
+    top: 48px;
+    left: 54px;
+    line-height: 55px;
+}
+
+.css .out {
+    width: 168px;
+    position: absolute;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.css .in {
+    background-color: #fbdea1;
+    width: 63%;
+    height: 5px;
+}
+
+.skills .c {
+    top: 48px;
+    left: 54px;
+}
+
+.c .out {
+    width: 168px;
+    position: absolute;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.c .in {
+    background-color: #fbdea1;
+    width: 20%;
+    height: 5px;
+}
+
+.skills .python {
+    top: 48px;
+    left: 54px;
+    line-height: 55px;
+}
+
+.python .out {
+    width: 168px;
+    position: absolute;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.python .in {
+    background-color: #fbdea1;
+    width: 30%;
+    height: 5px;
+}
+
+.certificate {
+    height: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.certificate h1 {
+    position: relative;
+    top: 21px;
+    left: 42px;
+
+}
+
+.certificate h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2.7px;
+    width: 143%;
+    border-radius: 2px;
+    background-color: #333;
+}
+
+.certificate h1::before {
+    content: '';
+    background: url('img/kisspng-computer-icons-certification-scalable-vector-graph-certificate-medal-collection-svg-png-icon-free-dow-5b6f9c965933e5.0217612915340412383654.png');
+    width: 17px;
+    height: 17px;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    left: 143px;
+    top: 13px;
+}
+
+.certificate h3 {
+    position: relative;
+    top: 34px;
+    left: 57px;
+    color: #333;
+    line-height: 26px;
+}
+
+.photo img {
+    border-radius: 50%;
+   
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.right {
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right h2 {
+    color: #f5d28a;
+}
+
+.objective {
+    height: 19%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.objective h2 {
+    position: relative;
+    top: 21px;
+    left: 42px;
+}
+
+
+
+.objective p {
+    position: relative;
+    top: 36px;
+    left: 44px;
+    width: 80%;
+    color: #6b6a6a;
+}
+
+.objective h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+
+    height: 2px;
+    width: 460px;
+    background-color: #333;
+
+}
+
+.experiance {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 91%;
+    margin-bottom: 10px;
+
+}
+
+.experiance h2 {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.experiance h3 {
+
+    color: #333;
+}
+
+
+
+
+.experiance h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+
+    height: 2.7px;
+    width: 460px;
+    background-color: #333;
+
+}
+
+.roles {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.role1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.role2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.role3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biryani .company {
+    margin-left: 26px;
+    margin-bottom: 3px;
+}
+
+.bottom2 p {
+    width: 92%;
+    border: 2px sold red;
+    margin-left: 28px;
+    color: #6b6a6a;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 91%;
+
+}
+.projects h2{
+    position: relative;
+    margin-bottom: 10px;
+}
+.projects h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-radius: 2px;
+
+    height: 2.7px;
+    width: 460px;
+    background-color: #333;
+
+}
+.project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pr1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
